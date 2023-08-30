@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Example') {
       steps {
-        echo 'ddddd'
+        echo '$BRANCH'
         git branch: "${params.BRANCH}", url: 'https://github.com/janghyeonwoo/jenkins-test.git'
       }
     }
