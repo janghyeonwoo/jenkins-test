@@ -7,7 +7,7 @@ pipeline {
     stage('Example') {
       steps {
         echo '$BRANCH'
-        git branch: "${params.BRANCH}", url: 'https://github.com/janghyeonwoo/jenkins-test.git'
+        // git branch: "${params.BRANCH}", url: 'https://github.com/janghyeonwoo/jenkins-test.git'
       }
     }
   }
