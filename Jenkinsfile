@@ -1,7 +1,7 @@
 pipeline {
   agent any
   parameters {
-    gitParameter branchFilter: 'origin/(.*)',  name: 'BRANCH', type: 'PT_BRANCH'
+    gitParameter name: 'BRANCH', type: 'PT_BRANCH'
   }
   stages {
     stage('Example') {
