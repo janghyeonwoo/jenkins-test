@@ -3,7 +3,7 @@ pipeline {
   parameters {
     gitParameter branchFilter: 'origin/(.*)', defaultValue: 'master', name: 'BRANCH', type: 'PT_BRANCH'
   }
-  stages {
+  stages {ㅁㄴㅁㄴㄴㅁ
     stage('Example') {
       steps {
         echo '$BRANCH'
